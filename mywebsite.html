@@ -4,6 +4,7 @@
 		<meta charset="UTF-8">
 		<title>Ryan Hammond's Portfolio</title>
 		<link rel="stylesheet" type="text/css" href="mywebsite.css">
+        <link href="path/to/lightbox.css" rel="stylesheet">
 		<!--[if lt IE 9]>
 		<script>
 			document.createElement("article");
@@ -17,36 +18,53 @@
 		<![endif]-->
 	</head>
 	<body>
-		<header class="banner">
+        <!--start header-->
+        <header class="banner">
 		<h1>Welcome to Ryan Hammond's Developer Portfolio</h1>
-		</header>
-		
+            <!--End header-->
+     </header>
 		<nav>
-		  <ul>
-		     <li><a href="work.html">My Work</a></li>
-			 <li><a href="contact.html">Contact Me</a></li>
-		  </ul>
+            <!--Start Menu-->
+              <!--need to create actual webpages for links-->
+		    <ul>
+                <li><a href="">Menu</a></li>
+                    <ul>
+                        <li><a href="mywebsite.html"; class="menu1">Home</a></li>
+                        <li><a href="mywebsite.html"; class="menu1">My Work</a></li>
+                        <li><a href="mywebsite.html"; class="menu1">Contact Me</a></li>
+                    </ul>
+            </ul>
+            <!--End Menu-->
 		</nav>
 		
 		<main>
 			<section>
-				<img src="http://www.amazingplacesonearth.com/wp-content/uploads/2012/08/mount-hood.jpg">
+				<img  src="http://www.amazingplacesonearth.com/wp-content/uploads/2012/08/mount-hood.jpg">
 			</section>
 			<section>
 				<h2>About Me</h2>
-				<article>Hi, my name is Ryan Hammond, and I am a U.S. Coast Guard veteran and an aspiring software developer.<br> 
-				Currently I am a student at The Tech Academy.</article>
-				<article>You can also view my work on GitHub  User:hammondryan89</article>
+				<article>
+                Hi, my name is Ryan Hammond, and I am a U.S. Coast Guard veteran and an aspiring software developer.<br> 
+				Currently I am a student at The Tech Academy.
+                </article>
+                <article>
+                You can also view my work on GitHub  User:hammondryan89
+                </article>
 			</section>
 		</main>
 		
 		<aside>
 			<h3>Visit the Tech Academy Site</h3>
-				<p>
 				<a href="http://learncodinganywhere.com/">The Tech Academy</a>
 		</aside>
 		
 		<footer>
 			<p>footer information</p>
 		</footer>
+
+   <script src="path/to/lightbox.js"></script>
+   <script type= "text/javascript" src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
+   <script type= "text/javascript" src="mywebsite.js"></script>
+    </body>
+</html>
 			
